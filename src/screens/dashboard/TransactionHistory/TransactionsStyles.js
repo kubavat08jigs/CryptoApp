@@ -1,0 +1,225 @@
+import {StyleSheet} from 'react-native';
+import {colors} from '../../../helper/colorConstants';
+import {fonts} from '../../../helper/fontconstant';
+import {hp, wp} from '../../../helper/utils';
+
+// define your styles
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.primaryWhite,
+  },
+  sortFilterContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: 32,
+  },
+  sortView: {
+    width: 164,
+    height: 44,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: '#DFDFDF',
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginHorizontal: wp(6.5),
+  },
+  sortFilterIcon: {height: 16, width: 16, marginLeft: 20},
+  sortFilterTitle: {
+    color: '#404040',
+    fontSize: 14,
+    fontWeight: '600',
+    marginLeft: 4,
+  },
+  saperatorView: {
+    height: 1.5,
+    backgroundColor: '#DFDFDF',
+    marginTop: 23,
+  },
+  leftView: {
+    flexDirection: 'row',
+    marginLeft: wp(22),
+    alignItems: 'center',
+  },
+  usdCoinStyle: {
+    color: '#9F9F9F',
+    fontSize: 14,
+    fontFamily: fonts.regular,
+    fontWeight: '400',
+    lineHeight: 16.8,
+  },
+  coinAmountText: {
+    fontSize: 12,
+    fontFamily: fonts.regular,
+    color: colors.darkBlack,
+    fontWeight: '500',
+    lineHeight: 16.8,
+  },
+  coinInDollar: {
+    fontSize: 12,
+    fontFamily: fonts.regular,
+    color: colors.textGrayColor,
+    fontWeight: '500',
+  },
+  selectionView: {
+    height: 20,
+    width: 20,
+    borderRadius: 12,
+    marginRight: 12,
+    marginLeft: 32,
+    borderWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  activeRadio: {
+    height: 12,
+    width: 12,
+    borderRadius: 6,
+    backgroundColor: colors.primaryBlue,
+  },
+  sheetTitle: {
+    alignSelf: 'center',
+    fontSize: 16,
+    fontFamily: fonts.regular,
+    color: colors.activeBlack,
+  },
+
+  chainItemContainer: {
+    width: 326,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: colors.borderColor,
+    backgroundColor: '#F8FAFE',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 16,
+    alignSelf: 'center',
+  },
+  itemRightView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: hp(16),
+  },
+  buybtnView: {
+    width: 48,
+    height: 33,
+    marginLeft: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  upDownnView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 3,
+  },
+  emailContainer: {
+    borderWidth: 1,
+    height: 59,
+    width: wp(335),
+    borderRadius: 10,
+    marginTop: 32,
+    borderColor: '#0000001A',
+    alignSelf: 'center',
+    paddingLeft: 25,
+    paddingRight: 16,
+  },
+  emailPlaceholderView: {
+    bottom: 10,
+    flexWrap: 'wrap',
+  },
+  emailLableText: {
+    backgroundColor: 'white',
+    paddingHorizontal: wp(8),
+    fontSize: 14,
+    fontWeight: '500',
+    fontFamily: fonts.regular,
+    color: colors.primaryText,
+  },
+  dateRangeView: {
+    alignItems: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  filterTitleText: {
+    paddingVertical: 5,
+    // paddingHorizontal: 10,
+    fontSize: 12,
+    fontWeight: '700',
+    color: '#808588',
+    fontFamily: fonts.regular,
+  },
+  filterSelectedVal: {
+    fontSize: 12,
+    fontWeight: '400',
+    color: '#808588',
+    fontFamily: fonts.regular,
+  },
+  removeFilter: {
+    color: '#808588',
+    marginLeft: 5,
+  },
+  selectedFilterView: {
+    borderRadius: 45,
+    backgroundColor: '#80858811',
+    borderWidth: 1,
+    borderColor: 'black',
+    margin: 2,
+    paddingHorizontal: 10,
+    alignItems: 'center',
+    flexDirection: 'row',
+  },
+  modalBtnView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+    marginTop: 15,
+  },
+  btnContainer: {
+    marginHorizontal: 5,
+  },
+  modalBtnText: {
+    fontSize: 16,
+    fontWeight: '700',
+    fontFamily: fonts.regular,
+    color: colors.darkBlack,
+  },
+  datePickerModalContainer: {
+    flex: 1,
+    backgroundColor: 'rgba(0,0,0,0.5)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  emptyStateView: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  emptyStateTitle: {
+    fontSize: 24,
+    color: colors.darkBlack,
+    fontFamily: fonts.regular,
+    fontWeight: '600',
+    marginTop: 33,
+  },
+  bottomSheetStyle: {
+    marginTop: 15,
+    paddingBottom: 20,
+    alignItems: 'center',
+  },
+  buttonsView: {
+    flexDirection: 'row',
+    marginTop: 10,
+    marginHorizontal: 10,
+  },
+  bottomButton: {
+    flex: 1,
+    margin: 10,
+  },
+  clearButton: {
+    backgroundColor: colors.grey,
+  },
+  clearButtonTitle: {
+    color: colors.primaryBlack,
+  },
+});

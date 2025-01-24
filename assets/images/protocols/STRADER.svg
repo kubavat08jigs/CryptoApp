@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0.4 0.3 56.3 90.9" width="56.3" height="90.9" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+	.st0{clip-path:url(#SVGID_00000148625415380255955980000011220899127261488027_);}
+	.st1{stroke:#FFFFFF;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{clip-path:url(#SVGID_00000093175077946949198530000014535669003533169031_);}
+</style>
+  </defs>
+  <g>
+    <defs>
+      <rect id="SVGID_1_" width="57.1" height="91.6"/>
+    </defs>
+    <clipPath id="SVGID_00000045585261777848463540000011618635804672627391_">
+      <rect width="57.1" height="91.6" transform="matrix(1, 0, 0, 1, 0, 0)" style="overflow: visible;"/>
+    </clipPath>
+    <g style="clip-path:url(#SVGID_00000045585261777848463540000011618635804672627391_);">
+      <path class="st1" d="M28.7,84.6l0-6.6L45,68.4L45,48.8l5.9-3.1l0.2,26.1L28.7,84.6z" style="fill: rgb(3, 49, 75);"/>
+      <path class="st1" d="M33.4,36.4l6.7-3.8L56.6,43l0.1,31.4l-5.6-2.6l-0.2-26.1L33.4,36.4z" style="fill: rgb(3, 49, 75);"/>
+      <path class="st1" d="M28.4,0.4l28.1,16.1l0,6.7L28.4,7.4L28.4,0.4z" style="fill: rgb(3, 49, 75);"/>
+      <path class="st1" d="M0.5,49.6L0.4,16.8l28-16.5l0,7L5.6,20.3L5.6,45.9L0.5,49.6z" style="fill: rgb(3, 49, 75);"/>
+      <path class="st1" d="M17,58.8L0.5,49.6l5.1-3.8l28.3,16.3L17,71.7l-5.6,3.2l17.3,9.8l22.4-12.9l5.6,2.6L28.5,91.2l-28-16L22.8,62 L17,58.8z" style="fill: rgb(3, 49, 75);"/>
+      <path class="st1" d="M5.6,20.3L28.4,7.4l28.1,15.8l-16.4,9.4l-6.7,3.8l17.4,9.3L45,48.8L22.6,36.1l22.3-13.2l-5.3-3.1l-11.1-6.4 L11.9,23L5.6,20.3z" style="fill: rgb(3, 49, 75);"/>
+      <path class="st1" d="M11.4,74.9l5.6-3.2l11.6,6.4l0,6.6L11.4,74.9z" style="fill: rgb(3, 49, 75);"/>
+      <path class="st1" d="M0.6,75.2l0-7L17,58.8l5.9,3.2L0.6,75.2z" style="fill: rgb(3, 49, 75);"/>
+      <path class="st1" d="M22.6,36.1l0.1-6.7l16.9-9.5l5.3,3.1L22.6,36.1z" style="fill: rgb(3, 49, 75);"/>
+      <path class="st1" d="M5.6,45.9l0.1-25.6l6.2,2.8l0.1,20.1l21.9,12.2l0,6.9L5.6,45.9z" style="fill: rgb(3, 49, 75);"/>
+    </g>
+  </g>
+</svg>
